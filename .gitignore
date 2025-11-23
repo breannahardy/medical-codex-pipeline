@@ -4,6 +4,12 @@
    *.xml
    *.zip
    raw_downloads/
+
+# Large input files (never commit)
+input/*.RRF
+input/*.txt
+input/*.csv
+input/*.zip
    
    # Processed files are OK to commit
    # output/ - keep these
